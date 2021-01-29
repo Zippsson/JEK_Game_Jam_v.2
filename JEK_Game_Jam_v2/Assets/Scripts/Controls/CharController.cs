@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class CharController : ControlInput
 {
+
     void Start()
     {
         
@@ -10,12 +11,12 @@ public class CharController : ControlInput
 
     void Update()
     {
-        
+
     }
 
     protected override void PressA()
     {
-        
+
     }
     protected override void PressB()
     {
