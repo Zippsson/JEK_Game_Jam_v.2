@@ -7,8 +7,8 @@ using UnityEngine.InputSystem;
 public class ControlInput : MonoBehaviour
 {
     protected DefaultControls controls; 
-    protected Vector3 movement;
-    protected float inputMagnitude;
+    public Vector3 movement;
+    public float inputMagnitude;
 
     protected void Awake()
     {
